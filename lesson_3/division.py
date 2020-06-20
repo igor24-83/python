@@ -10,5 +10,6 @@
 
 a, b = 179, 37
 while a > b:
-    a = a / b
-    print(int(a))
+    c = a / b
+    print('Целочисленное деление', a, 'на', b, 'дает', int(c))
+    break
